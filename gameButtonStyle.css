@@ -1,0 +1,120 @@
+.positionOne {
+  left: calc(2% + 10% + 90px);
+  top: calc(2% + 8% + 90px);
+  background-color: blue;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionTwo {
+  left: calc(2% + 60% - 90px);
+  top: calc(2% + 12% + 90px);
+  background-color: red;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionThree {
+  left: calc(2% + 20% + 90px);
+  top: calc(2% + 42% + 90px);
+  background-color: green;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionFour {
+  left: calc(2% + 72% - 90px);
+  top: calc(2% + 80% - 90px);
+  background-color: yellow;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionFive {
+  left: calc(2% + 52% - 90px);
+  top: calc(2% + 30% + 90px);
+  background-color: orange;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionSix {
+  left: calc(2% + 32% + 90px);
+  top: calc(2% + 60% - 90px);
+  background-color: purple;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionSeven {
+  left: calc(2% + 12% + 90px);
+  top: calc(2% + 22% + 90px);
+  background-color: cyan;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionEight {
+  left: calc(2% + 82% - 90px);
+  top: calc(2% + 2% + 90px);
+  background-color: magenta;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionNine {
+  left: calc(2% + 22% + 90px);
+  top: calc(2% + 70% - 90px);
+  background-color: lime;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionTen {
+  left: calc(2% + 48% + 90px);
+  top: calc(2% + 90% - 90px);
+  background-color: pink;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionEleven {
+  left: calc(2% + 22% + 90px);
+  top: calc(2% + 60% - 90px);
+  background-color: brown;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionTwelve {
+  left: calc(2% + 38% + 90px);
+  top: calc(2% + 18% + 90px);
+  background-color: teal;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionThirteen {
+  left: calc(2% + 68% - 90px);
+  top: calc(2% + 48% + 90px);
+  background-color: indigo;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionFourteen {
+  left: calc(2% + 42% + 90px);
+  top: calc(2% + 33% + 90px);
+  background-color: gold;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionFifteen {
+  left: calc(2% + 30% + 90px);
+  top: calc(2% + 74% - 90px);
+  background-color: silver;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionSixteen {
+  left: calc(2% + 62% - 90px);
+  top: calc(2% + 22% + 90px);
+  background-color: navy;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionSeventeen {
+  left: calc(2% + 58% - 90px);
+  top: calc(2% + 86% - 90px);
+  background-color: olive;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionEighteen {
+  left: calc(2% + 77% - 90px);
+  top: calc(2% + 12% + 90px);
+  background-color: chocolate;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionNineteen {
+  left: calc(2% + 18% + 90px);
+  top: calc(2% + 64% - 90px);
+  background-color: salmon;
+  border: 1px solid rgb(0, 0, 0);
+}
+.positionTwenty {
+  left: calc(2% + 44% + 90px);
+  top: calc(2% + 50% - 90px);
+  background-color: darkviolet;
+  border: 1px solid rgb(0, 0, 0);
+}

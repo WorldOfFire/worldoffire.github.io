@@ -147,7 +147,9 @@ section {
 #buttonStop:hover {
   cursor: pointer;
 }
-
+#submitButton:hover {
+  cursor: pointer;
+}
 #divStartButton {
   width: 50%;
   height: 100%;

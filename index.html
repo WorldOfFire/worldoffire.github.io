@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="Description" content="Refleksomierzacz" />
+    <meta name="Keywords" content="Refleksomierzacz" />
+    <meta name="Author" content="WSz" />
+    <title>Refleksomierzacz</title>
+    <link rel="stylesheet" href="layout.css" />
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="gameButtonStyle.css" />
+  </head>
+  <body>
+    <section>
+      <div id="title" class="menu">
+        <h1>Refleksomierzacz</h1>
+      </div>
+    </section>
+    <section id="gameSection">
+      <div id="startGame">
+        <div id="divStartButton">
+          <button id="startGameButton">START GAME</button>
+        </div>
+        <div id="rulesGame">
+          <p>
+            Gra, która mierzy refleks użytkownika, mierząc czas pomiędzy zmianą
+            na ekranie a kliknięciem myszy.
+          </p>
+
+          <ul>
+            <li class="firstLi">
+              Aplikacja powinna składać się z:
+              <ul>
+                <li>obszaru, w który użytkownik może klikać</li>
+                <li>przycisków do obsługi gry</li>
+                <li>panelu statystyk</li>
+              </ul>
+            </li>
+            <li class="firstLi">
+              Przyciski do obsługi gry:
+              <ul>
+                <li><strong>Przed rozpoczęciem gry:</strong> Start</li>
+                <li><strong>W trakcie trwania gry:</strong> Stop</li>
+              </ul>
+            </li>
+            <li class="firstLi">
+              Po kliknięciu <strong>Start</strong> gra:
+              <ul>
+                <li>
+                  5 razy w losowych odstępach czasu zmienia kolor obszaru do
+                  klikania
+                </li>
+                <li>
+                  Zadaniem użytkownika jest jak najszybsze kliknięcie obszaru po
+                  zmianie koloru
+                </li>
+              </ul>
+            </li>
+            <li class="firstLi">
+              Po pierwszej próbie, pod przyciskami pojawia się panel statystyk
+              zawierający:
+              <ul>
+                <li>najkrótszy czas reakcji</li>
+                <li>najdłuższy czas reakcji</li>
+                <li>średni czas reakcji</li>
+              </ul>
+            </li>
+            <li class="firstLi">
+              Po wszystkich próbach panel statystyk pozostaje widoczny do
+              następnego rozpoczęcia gry. Użytkownik może zatrzymać grę w
+              dowolnym momencie, wciskając
+              <strong>Stop</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="countAttempt">
+        <div><p>Podaj ilość prób</p></div>
+        <div>
+          <input
+            type="number"
+            id="number"
+            name="number"
+            min="2"
+            max="20"
+            step="1"
+          />
+          <button id="submitButton">OK</button>
+        </div>
+      </div>
+      <div id="gamePlace">
+        <div id="gameCover"></div>
+        <div id="gameCoverStart">
+          <button id="gameContinue">KONTYNUUJ</button>
+        </div>
+        <button id="gameButton" class=""></button>
+      </div>
+      <div id="gameStats">
+        <div id="gameInfo">
+          <div id="titleGameInfo">Historia rundy</div>
+          <div id="timeGameInfo"></div>
+        </div>
+        <div id="gameStop">
+          <button id="buttonStop">STOP</button>
+          <button id="mainMenu">MENU GŁÓWNE</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="bBack"><button id="backButton">POWRÓT</button></div>
+      <div id="creator">Weronika Szulińska</div>
+    </footer>
+    <script src="reflex.js" defer></script>
+  </body>
+</html>
